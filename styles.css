@@ -8,16 +8,17 @@ body {
     
 }
 header {
-    font-size:2rem;
+    font-size:2.5rem;
     text-align: center;
     border-color: purple;
     border-style: solid;
     font-family: 'Hind Siliguri', sans-serif;
-    padding:20px;
+    padding:45px;
     letter-spacing:1.5px;
 }
 nav {
     font-size: 1.5rem;
+    
     
 
 }
@@ -32,6 +33,7 @@ nav>ul>li {
 nav>ul>li>a {
     
     text-decoration: none;
+  
    
 }
 h1 {
@@ -48,6 +50,8 @@ h3 {
 }
 footer {
     text-align: center;
+    border:solid;
+    border-color: purple;
 }
 .grid-container {
     display:grid;
@@ -69,4 +73,29 @@ footer {
 }
 .media {
     margin-bottom: 10px;
+}
+.top-courses>li>a:hover {
+    text-decoration: none;
+}
+footer>a {
+    margin:10px;
+    color:rgb(52, 97, 155);
+}
+.see>a:hover {
+    text-decoration: none;
+}
+ul>li>a:hover {
+    color:purple;
+}
+.see>a:hover {
+    color:purple;
+}
+footer>a:hover {
+    color:purple;
+}
+ul>li>a {
+    color:rgb(52, 97, 155);
+}
+.see>a {
+    color:rgb(52, 97, 155);
 }
